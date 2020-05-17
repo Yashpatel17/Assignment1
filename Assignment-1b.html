@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- name- yash patel
+date- 17 May 2020
+id- 0755324
+purpose- assignment-1b -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-1b</title>
+</head>
+
+<body>
+    <script>
+
+        var ask = prompt("enter any string");
+
+        function third() {
+            document.write(ask.substring(2, 3));
+
+            if(ask.length>3){
+                document.write(ask+ " to0 short");
+            }
+            else if(ask.substring(2,3) === " "){
+                document.write(ask + " space");
+            }
+            else{
+                document.write(ask + " "+ ask.substring(2,3));
+            }
+        }
+        third();
+
+
+
+    </script>
+</body>
+
+</html>

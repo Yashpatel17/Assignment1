@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- name- yash patel
+date- 17 May 2020
+id- 0755324
+purpose- assignment-1a -->
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-1a</title>
+</head>
+
+<body>
+    <script>
+
+        // creating a function to solve the problem
+        function user(){
+            var ask = +prompt("Enetr a single digit number.");   // getting input
+
+            // g=creating for loop
+            for(var i=1; i<=100; i++){
+
+                var divide = i%ask;
+
+                if(divide  === 0){
+                    document.write(i+"</br>");  // diplaying output
+                }
+               
+            }
+
+        }
+
+
+        user();
+
+    </script>
+</body>
+
+</html>
